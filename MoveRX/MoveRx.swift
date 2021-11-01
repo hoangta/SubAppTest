@@ -15,6 +15,10 @@ public final class MoveRx {
     public static let shared = MoveRx()
     public weak var delegate: MoveRxDelegate?
     
+    private init() {
+        UIFont.registerAppFonts()
+    }
+    
     public func show(from viewController: UIViewController) {
         let tabbar = TabbarController()
         tabbar.modalPresentationStyle = .fullScreen
