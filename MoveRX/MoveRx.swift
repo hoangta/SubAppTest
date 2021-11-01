@@ -7,15 +7,15 @@
 
 import UIKit
 
-protocol MoveRxDelegate: AnyObject {
+public protocol MoveRxDelegate: AnyObject {
     func moveRxDidDismiss()
 }
 
 public final class MoveRx {
-    static let shared = MoveRx()
-    private weak var delegate: MoveRxDelegate?
+    public static let shared = MoveRx()
+    public weak var delegate: MoveRxDelegate?
     
-    func show(from viewController: UIViewController) {
+    public func show(from viewController: UIViewController) {
         let tabbar = TabbarController()
         tabbar.modalPresentationStyle = .fullScreen
         viewController.present(tabbar, animated: true)
