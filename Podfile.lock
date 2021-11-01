@@ -1,0 +1,34 @@
+PODS:
+  - Oneline (3.1.0)
+  - RxCocoa (6.2.0):
+    - RxRelay (= 6.2.0)
+    - RxSwift (= 6.2.0)
+  - RxRelay (6.2.0):
+    - RxSwift (= 6.2.0)
+  - RxSwift (6.2.0)
+  - TinyConstraints (4.0.2)
+
+DEPENDENCIES:
+  - Oneline
+  - RxCocoa
+  - RxSwift
+  - TinyConstraints
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Oneline
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+    - TinyConstraints
+
+SPEC CHECKSUMS:
+  Oneline: 6da8b6320d599504341cb8702c6bb59dccd83199
+  RxCocoa: 4baf94bb35f2c0ab31bc0cb9f1900155f646ba42
+  RxRelay: e72dbfd157807478401ef1982e1c61c945c94b2f
+  RxSwift: d356ab7bee873611322f134c5f9ef379fa183d8f
+  TinyConstraints: 7b7ccc0c485bb3bb47082138ff28bc33cd49897f
+
+PODFILE CHECKSUM: 13afbdb687b6aae5ebe9402a47229eb02457aef9
+
+COCOAPODS: 1.11.2
