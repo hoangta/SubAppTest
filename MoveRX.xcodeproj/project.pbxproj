@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1481542342CC14E69541C9FD /* Pods_MoveRX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F79E0310F1E0E8290430F197 /* Pods_MoveRX.framework */; };
+		22050DE627304B580040B29D /* MoveRx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22050DE527304B580040B29D /* MoveRx.swift */; };
 		2273EEFE2730015E00B7111E /* Proxima Nova Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2273EEFD2730015E00B7111E /* Proxima Nova Bold.otf */; };
 		2273EF002730017B00B7111E /* UIFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2273EEFF2730017B00B7111E /* UIFont.swift */; };
 		2273EF02273004F500B7111E /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2273EF01273004F500B7111E /* UIColor.swift */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		22050DE527304B580040B29D /* MoveRx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveRx.swift; sourceTree = "<group>"; };
 		2273EEFD2730015E00B7111E /* Proxima Nova Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proxima Nova Bold.otf"; sourceTree = "<group>"; };
 		2273EEFF2730017B00B7111E /* UIFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIFont.swift; sourceTree = "<group>"; };
 		2273EF01273004F500B7111E /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 				229BD2FC272FF81800CFDB0E /* Extensions */,
 				22F91CB3272EF4DD000924A8 /* AppDelegate.swift */,
 				22F91CB7272EF4DD000924A8 /* TabbarController.swift */,
+				22050DE527304B580040B29D /* MoveRx.swift */,
 				22F91CB9272EF4DD000924A8 /* Main.storyboard */,
 				22F91CBC272EF4E1000924A8 /* Assets.xcassets */,
 				22F91CBE272EF4E1000924A8 /* LaunchScreen.storyboard */,
@@ -244,6 +247,7 @@
 			files = (
 				22F91CB8272EF4DD000924A8 /* TabbarController.swift in Sources */,
 				2273EF02273004F500B7111E /* UIColor.swift in Sources */,
+				22050DE627304B580040B29D /* MoveRx.swift in Sources */,
 				22F91CB4272EF4DD000924A8 /* AppDelegate.swift in Sources */,
 				229BD2FE272FF82D00CFDB0E /* UIImage.swift in Sources */,
 				2273EF002730017B00B7111E /* UIFont.swift in Sources */,
