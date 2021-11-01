@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
     s.license      = { :type => "LGPL" }
     s.author       = { "Hoang Ta" => "ta.hoang@siliconprime.com" }
     s.source       = { :git => "https://github.com/hoangta/Oneline.git", :branch => 'main' }
-    s.source_files  = 'MoveRX/**/*'
+    s.source_files  = 'MoveRX/**/*.*'
     s.exclude_files = 'MoveRX/AppDelegate.swift', 'MoveRX/Info.plist'
     s.ios.deployment_target = "12.0"
     s.swift_version = "5.0"
