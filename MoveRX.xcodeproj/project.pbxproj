@@ -25,6 +25,7 @@
 		2273EEFF2730017B00B7111E /* UIFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIFont.swift; sourceTree = "<group>"; };
 		2273EF01273004F500B7111E /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
 		229BD2FD272FF82D00CFDB0E /* UIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
+		22BA9FBF2730387C007C7007 /* MoveRx.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = MoveRx.podspec; sourceTree = "<group>"; };
 		22F91CB0272EF4DD000924A8 /* MoveRX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoveRX.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22F91CB3272EF4DD000924A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		22F91CB5272EF4DD000924A8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -83,6 +84,7 @@
 				22F91CB1272EF4DD000924A8 /* Products */,
 				7A1BF76E3296FDBA0AF66F85 /* Pods */,
 				A39F6C2AB81E5EC06633CB0C /* Frameworks */,
+				22BA9FBF2730387C007C7007 /* MoveRx.podspec */,
 			);
 			sourceTree = "<group>";
 		};
